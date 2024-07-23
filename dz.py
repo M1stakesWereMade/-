@@ -6,7 +6,6 @@ def test_function():
 
     inner_function()
 
-    # Попытка вызова inner_function вне test_function
     try:
         inner_function()
     except NameError as e:
